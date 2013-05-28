@@ -1,0 +1,13 @@
+To run the server, run the following command with superuser inside root directory:
+
+./em-ftpd/bin/em-ftpd Driver.rb
+
+To start running test(only after starting the server), run the following command:
+
+rspec Testing.rb
+
+Driver.rb: Contains the Driver code
+AmazonS3.rb: Contains the code that handles communication with the Amazon S3.
+Testing.rb: Contains the code to test the module.
+
+Other file may not be of direct relavence but they show thought process.
